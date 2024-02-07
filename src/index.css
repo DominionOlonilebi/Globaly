@@ -66,18 +66,13 @@
 .firstsection_container h6 span {
   background-color: rgb(1, 134, 128);
   padding: 12px 30px;
+  font-size: 14px;
 }
 .firstsection_container h6 .faphone {
   background-color: rgba(37, 27, 27, 0.918);
   border-color: rgba(37, 27, 27, 0.918);
 }
-.firstsection_container h6 {
-  font-size: 14px;
-  padding-top: 20px;
-}
-.firstsection_container .cards h6 span {
-  background-color: rgb(1, 134, 128);
-}
+
 .firstsection_container .faclock {
   background-color: rgb(1, 134, 128);
   
