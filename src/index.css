@@ -1,13 +1,170 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* navbar */
+
+.navbars .links {
+  background-color: rgb(121, 95, 74);
+  margin-bottom: -8px;
+  color: #fff;
+}
+.navbars .links:hover {
+  color: rgba(5, 1, 1, 0.918);
+  border-radius: 0px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.navbars .linkss {
+  background-color: rgb(1, 134, 128);
+  margin-bottom: -8px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* header */
+
+.globaly_container {
+  padding-top: 50px;
+  color: #fff;
+  background-color: rgba(5, 1, 1, 0.918);
+}
+.globaly_container .fagift {
+  background-color: rgb(1, 134, 128);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.globaly_container h2 span {
+  font-size: 27px;
+  font-weight: 300;
+}
+.globaly_container h6 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* background */
+.background_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(mv7.jpg);
+  background-size: cover;
+  line-height: 200px;
+  text-align: center;
+  color: #e9e9e9;
+  padding-top: 80px;
+}
+
+.background_container h1 {
+  font-size: 45px;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  font-weight: 300;
+}
+
+/* firstsection */
+.firstsection_container {
+  background-color: rgba(5, 1, 1, 0.918);
+  color: #fff;
+}
+.firstsection_container h3 {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 27px;
+}
+.firstsection_container h6 span {
+  background-color: rgb(1, 134, 128);
+  padding: 12px 30px;
+}
+.firstsection_container h6 .faphone {
+  width: 44px;
+  height: 30px;
+}
+.firstsection_container h6 {
+  font-size: 14px;
+  padding-top: 20px;
+}
+.firstsection_container .cards h6 span {
+  background-color: rgb(1, 134, 128);
+  padding: 8px 26px;
+}
+.firstsection_container .faclock {
+  background-color: rgb(1, 134, 128);
+  width: 30px;
+  height: 23px;
+}
+.firstsection_container .cards h6 .faarow {
+  background-color: rgb(121, 95, 74);
+  width: 44px;
+  height: 31px;
+}
+.firstsection_container .cards h4 {
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 22px;
+}
+.firstsection_container .cards h4 span {
+  color: rgb(1, 134, 128);
+}
+.firstsection_container .cards .cards_row {
+  margin-top: 150px;
+}
+.firstsection_container p {
+  font-weight: 200;
+}
+.firstsection_container h4 {
+  font-size: 24px;
+}
+.firstsection_container .firstsection {
+  background-color: rgb(121, 95, 74);
+}
+
+/* Quote */
+.quote_container {
+  background-color: rgb(121, 95, 74);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+/* secondsection */
+.secondsection p {
+  line-height: 30px;
+  font-size: 15px;
+}
+.secondsection .secondsection_col h1 {
+  font-size: 40px;
+}
+.secondsection .secondsection_col p {
+  font-size: 15px;
+}
+.secondsection .date_div {
+  background-color: rgb(1, 134, 128);
+  text-align: center;
+}
+.secondsection .date_div .date {
+  color: rgba(5, 1, 1, 0.918);
+}
+.secondsection .secondsection_sidemenu p {
+  font-size: 14px;
+  line-height: 22px;
+}
+.secondsection {
+  background-color: rgba(5, 1, 1, 0.918);
+  color: #fff;
+  padding-top: 90px;
+  padding-bottom: 18px;
+}
+.secondsection .accordion-button {
+  background-color: rgb(121, 95, 74);
+}
+.secondsection .accord {
+  background-color: rgba(136, 91, 59, 0.801);
+}
+.secondsection h4 {
+  color: rgb(1, 134, 128);
+  font-weight: 300;
+}
+.secondsection h5 {
+  font-weight: 300;
+  font-size: 16px;
+}
+.secondsection h6 {
+  color: rgba(136, 91, 59, 0.801);
+}
+.secondsection .secondsection_submenu {
+  margin-bottom: 30px;
 }
