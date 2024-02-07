@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import {
   FaArrowRight,
   FaClock,
@@ -21,7 +21,12 @@ const FirstSection = () => {
             </Col>
             <Col md={3} className="firstsection">
               <h6 className="mt-4">
-                <span>SUPPORT 24/7</span> <FaPhone className="faphone" />
+                <div className="btn-group">
+                  <span>SUPPORT 24/7</span>
+                  <Button className="faphone">
+                    <FaPhone className="p-2 fs-2" />
+                  </Button>
+                </div>
               </h6>
             </Col>
           </Row>
@@ -29,16 +34,20 @@ const FirstSection = () => {
         <Container className="cards">
           <Row className="cards_row">
             <Col md={3} className="mb-5">
-              <Row className="d-flex flex-row justify-content-center">
-                <Col md={6}></Col>
-                <Col>
+              <div className="d-flex flex-row">
+                <div className="me-3">
                   <h4>
-                    <FaClock className="faclock" />
-                    &nbsp; CREATIVE <br />
-                    <span className="mx-4">SOLUTIONS</span>
+                    <FaClock className="p-2 fs-1 faclock rounded-circle " />
                   </h4>
-                </Col>
-              </Row>
+                </div>
+
+                <div>
+                  <h4>
+                    CREATIVE <br />
+                    <span className="">SOLUTIONS</span>
+                  </h4>
+                </div>
+              </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. In
@@ -46,21 +55,29 @@ const FirstSection = () => {
                 pellentesque magna.
               </p>
               <h6>
-                <span>MORE INFO</span> &nbsp;{" "}
-                <FaArrowRight className="faarow" />
+                <div className="btn-group">
+                  <span>MORE INFO</span>
+                  <Button className="faarow">
+                    <FaArrowRight className="p-2 fs-2" />
+                  </Button>
+                </div>
               </h6>
             </Col>
             <Col md={3} className="mb-5">
-              <Row className="d-flex flex-row justify-content-center">
-                <Col md={8}></Col>
-                <Col>
+              <div className="d-flex flex-row">
+                <div className="me-3">
                   <h4>
-                    <FaThumbsUp className="faclock" />
-                    &nbsp; BEST <br />
-                    <span className="mx-4">SERVICES</span>
+                    <FaThumbsUp className="p-2 fs-1 faclock rounded-circle " />
                   </h4>
-                </Col>
-              </Row>
+                </div>
+
+                <div>
+                  <h4>
+                    BEST <br />
+                    <span className="">SERVICES</span>
+                  </h4>
+                </div>
+              </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. In
@@ -68,21 +85,29 @@ const FirstSection = () => {
                 pellentesque magna.
               </p>
               <h6>
-                <span>MORE INFO</span> &nbsp;{" "}
-                <FaArrowRight className="faarow" />
+                <div className="btn-group">
+                  <span>MORE INFO</span>
+                  <Button className="faarow">
+                    <FaArrowRight className="p-2 fs-2" />
+                  </Button>
+                </div>
               </h6>
             </Col>
             <Col md={3} className="mb-5">
-              <Row className="d-flex flex-row justify-content-center">
-                <Col md={10}></Col>
-                <Col>
+              <div className="d-flex flex-row">
+                <div className="me-3">
                   <h4>
-                    <FaLightbulb className="faclock" />
-                    &nbsp; GLOBAL
-                    <br /> <span className="mx-5">IDEAS</span>
+                    <FaLightbulb className="p-2 fs-1 faclock rounded-circle " />
                   </h4>
-                </Col>
-              </Row>
+                </div>
+
+                <div>
+                  <h4>
+                    GLOBAL <br />
+                    <span className="">IDEAS</span>
+                  </h4>
+                </div>
+              </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. In
@@ -90,21 +115,29 @@ const FirstSection = () => {
                 pellentesque magna.
               </p>
               <h6>
-                <span>MORE INFO</span> &nbsp;{" "}
-                <FaArrowRight className="faarow" />
+                <div className="btn-group">
+                  <span>MORE INFO</span>
+                  <Button className="faarow">
+                    <FaArrowRight className="p-2 fs-2" />
+                  </Button>
+                </div>
               </h6>
             </Col>
             <Col md={3} className="mb-5">
-              <Row className="d-flex flex-row justify-content-center">
-                <Col md={8}></Col>
-                <Col>
+              <div className="d-flex flex-row">
+                <div className="me-3">
                   <h4>
-                    <FaSearch className="faclock" />
-                    &nbsp; PRO
-                    <br /> <span className="mx-4">RESEARCH</span>
+                    <FaSearch className="p-2 fs-1 faclock rounded-circle " />
                   </h4>
-                </Col>
-              </Row>
+                </div>
+
+                <div>
+                  <h4>
+                    PRO <br />
+                    <span className="">RESEARCH</span>
+                  </h4>
+                </div>
+              </div>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. In
@@ -112,8 +145,12 @@ const FirstSection = () => {
                 pellentesque magna.
               </p>
               <h6>
-                <span>MORE INFO</span> &nbsp;{" "}
-                <FaArrowRight className="faarow" />
+                <div className="btn-group">
+                  <span>MORE INFO</span>
+                  <Button className="faarow">
+                    <FaArrowRight className="p-2 fs-2" />
+                  </Button>
+                </div>
               </h6>
             </Col>
           </Row>

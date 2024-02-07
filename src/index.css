@@ -1,7 +1,7 @@
 /* navbar */
 
 .navbars .links {
-  background-color: rgb(121, 95, 74);
+  background-color: rgb(95, 73, 55);
   margin-bottom: -8px;
   color: #fff;
 }
@@ -25,8 +25,6 @@
 }
 .globaly_container .fagift {
   background-color: rgb(1, 134, 128);
-  padding-left: 10px;
-  padding-right: 10px;
 }
 .globaly_container h2 span {
   font-size: 27px;
@@ -70,8 +68,8 @@
   padding: 12px 30px;
 }
 .firstsection_container h6 .faphone {
-  width: 44px;
-  height: 30px;
+  background-color: rgba(37, 27, 27, 0.918);
+  border-color: rgba(37, 27, 27, 0.918);
 }
 .firstsection_container h6 {
   font-size: 14px;
@@ -79,17 +77,15 @@
 }
 .firstsection_container .cards h6 span {
   background-color: rgb(1, 134, 128);
-  padding: 8px 26px;
 }
 .firstsection_container .faclock {
   background-color: rgb(1, 134, 128);
-  width: 30px;
-  height: 23px;
+  
 }
 .firstsection_container .cards h6 .faarow {
   background-color: rgb(121, 95, 74);
-  width: 44px;
-  height: 31px;
+  border-color: rgb(121, 95, 74);
+  
 }
 .firstsection_container .cards h4 {
   margin-bottom: 20px;

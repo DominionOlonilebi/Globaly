@@ -9,7 +9,8 @@ const Header = () => {
         <Row>
           <Col md={4}>
             <h2 className="mx-2">
-              <FaGift className="fagift rounded-circle" /> <span>Globaly</span>
+              <FaGift className="p-2 fs-1 fagift rounded-circle" />{" "}
+              <span>Globaly</span>
             </h2>
             <h6 className="mx-4">BUSINESS THEME</h6>
           </Col>

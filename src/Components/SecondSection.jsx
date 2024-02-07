@@ -89,7 +89,7 @@ const SecondSection = () => {
             <Col md={3} className="mb-5">
               <h4 className="secondsection_submenu">OUR SERVICES</h4>
               <div>
-                <Accordion>
+                <Accordion className="mb-4">
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>Lorem ipsum dolor</Accordion.Header>
                     <Accordion.Body className="accord">
